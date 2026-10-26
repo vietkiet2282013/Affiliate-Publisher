@@ -1,0 +1,202 @@
+{
+  "noi_that_dung_that": {
+    "name": "Nói Thật Dùng Thật",
+    "folder": "C:\\Affiliate\\Nói Thật Dùng Thật",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/noi_that_dung_that.json"
+    }
+  },
+  "dung_roi_moi_noi": {
+    "name": "Dùng Rồi Mới Nói",
+    "folder": "C:\\Affiliate\\Dùng Rồi Mới Nói",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/dung_roi_moi_noi.json"
+    }
+  },
+  "review_that_viec_that": {
+    "name": "Review Thật Việc Thật",
+    "folder": "C:\\Affiliate\\Review Thật Việc Thật",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/review_that_viec_that.json"
+    }
+  },
+  "setup_phong_xinh": {
+    "name": "Setup Phòng Xinh",
+    "folder": "C:\\Affiliate\\Setup Phòng Xinh",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/setup_phong_xinh.json"
+    }
+  },
+  "tu_do_mua_moi": {
+    "name": "Tủ Đồ Mùa Mới",
+    "folder": "C:\\Affiliate\\Tủ Đồ Mùa Mới",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/tu_do_mua_moi.json"
+    }
+  },
+  "cham_cong_nghe": {
+    "name": "Trạm Công Nghệ",
+    "folder": "C:\\Affiliate\\Trạm Công Nghệ",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/cham_cong_nghe.json"
+    }
+  },
+  "goc_tap_luyen": {
+    "name": "Góc Tập Luyện",
+    "folder": "C:\\Affiliate\\Góc Tập Luyện",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/goc_tap_luyen.json"
+    }
+  },
+  "cham_da_tiet_kiem": {
+    "name": "Chăm Da Tiết Kiệm",
+    "folder": "C:\\Affiliate\\Chăm Da Tiết Kiệm",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/cham_da_tiet_kiem.json"
+    }
+  },
+  "quan_ao_gia_hoi": {
+    "name": "Quần Áo Giá Hời",
+    "folder": "C:\\Affiliate\\Quần Áo Giá Hời",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/quan_ao_gia_hoi.json"
+    }
+  },
+  "yeu_da_hon_bo": {
+    "name": "Yêu Da Hơn Bồ",
+    "folder": "C:\\Affiliate\\Yêu Da Hơn Bồ",
+    "facebook": {
+      "page_id": "YOUR_FB_PAGE_ID",
+      "access_token": "YOUR_FB_PAGE_ACCESS_TOKEN"
+    },
+    "instagram": {
+      "account_id": "YOUR_IG_ACCOUNT_ID",
+      "access_token": "YOUR_IG_ACCESS_TOKEN"
+    },
+    "threads": {
+      "user_id": "YOUR_THREADS_USER_ID",
+      "access_token": "YOUR_THREADS_ACCESS_TOKEN"
+    },
+    "youtube": {
+      "channel_id": "YOUR_YOUTUBE_CHANNEL_ID",
+      "token_file": "POST/credentials/youtube_tokens/yeu_da_hon_bo.json"
+    }
+  }
+}

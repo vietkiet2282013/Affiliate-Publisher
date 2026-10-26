@@ -1,0 +1,15 @@
+Tôi vừa clone dự án này từ GitHub về máy mới và đã để file `secret_keys_backup.zip` chứa toàn bộ credentials, tokens và file môi trường ở thư mục gốc của dự án.
+
+Bạn hãy hỗ trợ tôi thực hiện toàn bộ các bước thiết lập môi trường sau:
+1. Giải nén file `secret_keys_backup.zip` và đặt chính xác các file/thư mục vào đúng vị trí của dự án:
+   - File `POST/.env`
+   - File `client_secret.json`, `POST/client_secret.json`, `POST/google_client_secret.json`
+   - File `POST/config/permanent_meta_tokens.json`
+   - Thư mục `POST/credentials/youtube_tokens/` (chứa các token kênh YouTube)
+   - Thư mục `POST/credentials/tiktok_tokens/`
+2. Kiểm tra file `POST/config/brands.json` và đối chiếu xem các đường dẫn token_file của YouTube đã trỏ đúng vào thư mục `POST/credentials/youtube_tokens/` chưa.
+3. Kiểm tra môi trường Python:
+   - Kiểm tra virtual environment (venv). Nếu chưa có, hãy tạo và kích hoạt venv.
+   - Cài đặt đầy đủ các thư viện từ `POST/requirements.txt` (requests, google-api-python-client, google-auth-oauthlib, tqdm, python-dotenv, v.v.).
+4. Chạy một bài test nhanh không tải video (dry-run hoặc kiểm tra tính hợp lệ của Meta token và YouTube credentials) để xác nhận hệ thống đã sẵn sàng xuất bản video đa nền tảng trên máy này.
+5. Sau khi hoàn tất và kiểm tra thành công, tự động xóa file tạm `secret_keys_backup.zip` để bảo mật.

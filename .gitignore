@@ -1,0 +1,97 @@
+# Python environments & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.bak
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Media Files - NEVER commit video files or raw downloads
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.AVI
+*.mkv
+*.MKV
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.3gp
+*.crdownload
+
+# Large audio/video temporary buffers
+temp_ig/
+POST/uploaders/temp_ig/
+video_previews/
+Video_douyin/
+Video_việt_hóa/
+Video_vi?t_ha/
+
+# Logs & task artifacts
+*.log
+logs/
+POST/config/*.log
+POST/config/*_summary.json
+POST/config/*_result.json
+
+# Local Cache & Temp scratch
+analytics_cache.json
+POST/config/analytics_cache.json
+scratch/
+POST/scratch/
+scratch_xlsx/
+channel_drafts.json
+upload_tasks_history.json
+POST/config/upload_tasks_history.json
+synced_fb_thumbnails.json
+POST/config/synced_fb_thumbnails.json
+yt_desc_update_status.json
+POST/config/yt_desc_update_status.json
+schedule_queue.json
+POST/config/schedule_queue.json
+redirect_cache.json
+all_downloaded_vids.json
+app.py.bak
+temp_og_header.txt
+
+# Postman collections with embedded tokens
+*Postman_Collection*.json
+
+# Real API credentials, tokens & secrets (NEVER commit to GitHub)
+client_secret*.json
+!client_secret.example.json
+POST/client_secret*.json
+POST/google_client_secret.json
+token.json
+POST/config/brands.json
+!POST/config/brands.example.json
+POST/config/permanent_meta_tokens.json
+POST/credentials/youtube_tokens/*
+!POST/credentials/youtube_tokens/.gitkeep
+POST/credentials/tiktok_tokens/*
+!POST/credentials/tiktok_tokens/.gitkeep
+.env
+.env.local
+
+# Data sheets with specific affiliate tracking
+data/
+data/*.xlsx
+data/*.csv
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
