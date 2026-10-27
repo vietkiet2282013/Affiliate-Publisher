@@ -38,7 +38,11 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-AFFILIATE_ROOT = os.path.dirname(BASE_DIR)
+_parent_cand = os.path.dirname(BASE_DIR.rstrip("/\\"))
+if os.path.exists(os.path.join(_parent_cand, "Affiliate")):
+    AFFILIATE_ROOT = os.path.join(_parent_cand, "Affiliate")
+else:
+    AFFILIATE_ROOT = _parent_cand
 
 POST_DIR = os.path.join(BASE_DIR, "POST")
 
@@ -91,6 +95,8 @@ from advanced_analytics import (
     get_publish_source_comparison, get_channel_audience_analytics
 
 )
+
+
 
 
 
@@ -6973,7 +6979,7 @@ def resolve_brand_folder_path(brand_cfg: dict):
 
         return None
 
-    parent_dir = os.path.dirname(BASE_DIR)  # Thư mục gốc C:\Affiliate
+    parent_dir = AFFILIATE_ROOT  # Thư mục gốc C:\Affiliate
 
     
 
@@ -7066,6 +7072,17 @@ def resolve_brand_folder_path(brand_cfg: dict):
 
 
 
+
+
+@app.route("/api/debug-affiliate", methods=["GET"])
+def debug_affiliate():
+    return jsonify({
+        "BASE_DIR": BASE_DIR,
+        "AFFILIATE_ROOT": AFFILIATE_ROOT,
+        "AFFILIATE_ROOT_exists": os.path.exists(AFFILIATE_ROOT),
+        "AFFILIATE_ROOT_list": os.listdir(AFFILIATE_ROOT) if os.path.exists(AFFILIATE_ROOT) else [],
+        "resolve_noi_that": resolve_brand_folder_path(load_brands().get("noi_that_dung_that", {}))
+    })
 
 @app.route("/api/brand-files", methods=["GET"])
 

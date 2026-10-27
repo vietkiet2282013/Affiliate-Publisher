@@ -270,7 +270,7 @@ class InstagramReelsUploader:
         def _wait_for_container(cid: str) -> bool:
             self._log(f"⏳ [Instagram 3/4] Đang đợi Meta xử lý và mã hóa video (Container: {cid})...", log_cb)
             st_code = ""
-            for poll_idx in range(30):  # Tối đa 30 lần x 4s = 2 phút (chống treo nghẽn hàng đợi)
+            for poll_idx in range(18):  # Tối đa 18 lần x 4s = ~72s rồi chuyển nhanh sang Fallback CDN
                 time.sleep(4)
                 try:
                     status_res = requests.get(
